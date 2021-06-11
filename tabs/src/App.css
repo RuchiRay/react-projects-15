@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif ;
+}
+body{
+  background-color: #f1faee;
+}
+.line{
+  width: 100px;
+  height: 4px;
+  background-color: #e63946;
+}
+main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.job-centre{
+  display: flex;
+  max-width: 70%;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+h1{
+  font-size: 3rem;
+}
+.job{
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  
+}
+.company{
+  padding: 7px;
+  background-color: #d5f7cb;
+  color: #e63946;
+  width: 90px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.date{
+  color: #ee6f7a;
+  margin-bottom: 15px;
+}
+.duty{
+  color: #e63946;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.job-icon{
+  margin-right: 10px;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.more-info{
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 17px;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 30px;
+}
+.job-btn-box{
+  /* margin-right: 10px; */
+}
+.job-btn{
+  border: none;
+  font-size: 1.7rem;
+  padding-left: 40px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+.active{
+  border-left:2px solid #ee6f7a;
+  color: #ee6f7a;
+}
+.job-btn:hover{
+  border-left:2px solid #ee6f7a;
+  color: #ee6f7a;
+}
