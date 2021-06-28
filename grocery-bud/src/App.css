@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif ;
+}
+.main-box{
+  /* border: 2px solid red; */
+  height: 46px;
+  transition: all 0.3s ease-in-out;
+}
+.main-box.alert-added{
+  height: 70px;
+}
