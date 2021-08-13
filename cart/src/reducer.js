@@ -5,11 +5,14 @@ export const reducer = (state, action) => {
     return { ...state, loading: true };
   }
   if (action.type === "DISPLAY DATA") {
+    console.log(action.payLoad);
+    
     return { ...state, cart: action.payLoad, loading: false };
   }
   if (action.type === "CALC AMT") {
     let finalAmount = 0;
     let totalItems = 0;
+    console.log('calc amount');
     for (const item of state.cart) {
       finalAmount = finalAmount + item.amount * parseFloat(item.price);
       totalItems = totalItems + parseInt(item.amount)

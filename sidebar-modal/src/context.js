@@ -2,6 +2,8 @@ import React, { useState, useContext } from 'react'
 const AppContext = React.createContext();
 const AppProvider = ({children})=>{
     const [isSidebarOpen, setIsSidebarOpen] = useState(false)
+    const [val, setVal] = useState(true)
+    console.log(val);
     const [isModalOpen, setIsModalOpen] = useState(false)
     const openSidebar = ()=>{
         setIsSidebarOpen(true)
